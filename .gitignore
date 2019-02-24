@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+TestProject.Rcheck/
+TestProject*.tar.gz
+TestProject*.tgz
