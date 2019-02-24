@@ -1,15 +1,22 @@
 #input 1
 stopgo<-function(placenumber1here)
 {
-  col<-c("red","green")
-  movement<-sample(col,1)
-  if(movement=="red")
+  if(placenumber1here!=1)
   {
-    print("STOP!")
+    print("Didn't read the instructions eh? Try Again (with 1).")
   }
   else
   {
-    print("GO!")
+  col<-c("red","green")
+  movement<-sample(col,1)
+    if(movement=="red")
+    {
+      print("STOP!")
+    }
+    else
+    {
+      print("GO!")
+    }
   }
 }
 
